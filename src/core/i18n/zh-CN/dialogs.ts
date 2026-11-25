@@ -1,6 +1,18 @@
 /** Dialog chrome and standalone modal surfaces (delete, abort, setup, find, cheatsheet). */
 
 export const DIALOGS: Readonly<Record<string, string>> = {
+	" 1 imported notes file inside moves to {target}.": "其中 1 个已导入的笔记文件将移至{target}。",
+	" {count} imported notes files inside move to {target}.": "其中 {count} 个已导入的笔记文件将移至{target}。",
+	"1 session": "1 个会话",
+	"Also remove their graph traces": "同时移除这些会话在图谱中的痕迹",
+	"Delete folder": "删除文件夹",
+	"Delete folder?": "删除文件夹？",
+	"These sessions’ topics, links, and events leave the graph too. Topics other sessions or imported notes also cover survive; topics only these sessions created are removed entirely.": "这些会话的主题、连接和事件也会从图谱中移除。其他会话或已导入笔记也涉及的主题会保留，仅由这些会话创建的主题会彻底删除。",
+	"This permanently removes the folder and the {contents} inside — the sessions’ messages, background jobs, and extraction records. Everything they added to the graph stays unless you check below.{notes} This cannot be undone.": "这会永久删除该文件夹及其中的{contents}，包括这些会话的消息、后台任务和提取记录。除非勾选下方选项，否则这些会话添加到图谱的内容会保留。{notes}此操作无法撤销。",
+	"the top level": "顶层",
+	"{count} sessions": "{count} 个会话",
+	"{sessions} and 1 subfolder": "{sessions}和 1 个子文件夹",
+	"{sessions} and {count} subfolders": "{sessions}和 {count} 个子文件夹",
 	"Choose your AI provider and paste its API key. You’ll pick your models next.": "选择你的 AI 服务商并粘贴 API 密钥，接下来挑选模型。",
 	"Close setup": "关闭设置向导",
 	"Delete session": "删除会话",

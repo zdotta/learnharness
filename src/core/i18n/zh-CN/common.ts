@@ -5,6 +5,7 @@
  */
 
 export const COMMON: Readonly<Record<string, string>> = {
+	"Deleting…": "正在删除……",
 	"Cancel": "取消",
 	"Close": "关闭",
 	"Done": "完成",

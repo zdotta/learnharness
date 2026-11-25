@@ -1,6 +1,7 @@
 /** The sidebar, session list, search, activity dock and session stats. */
 
 export const SIDEBAR: Readonly<Record<string, string>> = {
+	"New subfolder": "新建子文件夹",
 	"Background agents": "后台智能体",
 	"Cache hit rate": "缓存命中率",
 	"Chunk threshold": "分块阈值",
